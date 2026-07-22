@@ -4,5 +4,5 @@ tags={
 	"Warfare"
 	"Balance"
 }
-name="Unnerfed Strength in Numbers & Frugal Armorers"
+name="Unnerf Tradition Building Men-at-Arms Regiment Limit"
 supported_version="1.*.*"
