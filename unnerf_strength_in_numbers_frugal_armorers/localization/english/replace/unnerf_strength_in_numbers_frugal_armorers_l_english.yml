@@ -1,4 +1,4 @@
 ﻿l_english:
- culture_parameter_strength_in_numbers_maa_limit_bonus: "The #V $building_type_barracks_01$#! and #V $building_type_war_camps_01$#! lines of [buildings|E] increase the #V [men_at_arms|E] Regiment Limit#!"
+ culture_parameter_strength_in_numbers_maa_limit_bonus: "The #V $building_type_barracks_01$#! and #V $building_type_war_camps_01$#! lines of [buildings|E] increase the #V Size of [men_at_arms|E] [regiments|E]#!"
  culture_parameter_frugal_blacksmith_maa_size: "The #V $building_type_smiths_01$#! line of [buildings|E] increase the #V Number of [knight_i][knights|E]#! and the #V Size of [men_at_arms|E] [regiments|E]#!"
  culture_parameter_trade_ports_give_levies: "The #V $building_type_common_tradeport_01$#! line of [buildings|E] increase #V Levies#! and #V Size of [men_at_arms|E] [regiments|E]#! in [counties|E] of this [culture|E]"
