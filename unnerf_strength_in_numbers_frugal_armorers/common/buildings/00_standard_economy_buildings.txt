@@ -4392,6 +4392,10 @@ common_tradeport_01 = {
 		monthly_county_control_growth_add = 0.1
 	}
 	province_culture_modifier = {
+		parameter = trade_ports_give_levies
+		levy_size = 0.02
+	}
+	province_culture_modifier = {
 		parameter = trade_ports_stationed_maa_bonus
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_1
 	}
@@ -4665,6 +4669,10 @@ common_tradeport_04 = {
 		parameter = trade_ports_give_levies
 		levy_size = 0.08
 	}
+	character_culture_modifier = {
+		parameter = trade_ports_give_levies
+		men_at_arms_limit = 1
+	}
 	province_culture_modifier = {
 		parameter = trade_ports_stationed_maa_bonus
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_4
@@ -4735,6 +4743,10 @@ common_tradeport_05 = {
 	province_culture_modifier = {
 		parameter = trade_ports_give_levies
 		levy_size = 0.1
+	}
+	character_culture_modifier = {
+		parameter = trade_ports_give_levies
+		men_at_arms_limit = 1
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_stationed_maa_bonus
@@ -4807,6 +4819,10 @@ common_tradeport_06 = {
 		parameter = trade_ports_give_levies
 		levy_size = 0.12
 	}
+	character_culture_modifier = {
+		parameter = trade_ports_give_levies
+		men_at_arms_limit = 2
+	}
 	province_culture_modifier = {
 		parameter = trade_ports_stationed_maa_bonus
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_6
@@ -4878,6 +4894,10 @@ common_tradeport_07 = {
 		parameter = trade_ports_give_levies
 		levy_size = 0.14
 	}
+	character_culture_modifier = {
+		parameter = trade_ports_give_levies
+		men_at_arms_limit = 2
+	}
 	province_culture_modifier = {
 		parameter = trade_ports_stationed_maa_bonus
 		stationed_maa_toughness_mult = normal_maa_toughness_tier_7
@@ -4948,6 +4968,10 @@ common_tradeport_08 = {
 	province_culture_modifier = {
 		parameter = trade_ports_give_levies
 		levy_size = 0.16
+	}
+	character_culture_modifier = {
+		parameter = trade_ports_give_levies
+		men_at_arms_limit = 3
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_stationed_maa_bonus
