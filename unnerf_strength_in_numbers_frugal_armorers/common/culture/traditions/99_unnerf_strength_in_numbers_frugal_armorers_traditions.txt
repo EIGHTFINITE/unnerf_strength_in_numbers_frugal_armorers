@@ -1,0 +1,117 @@
+﻿tradition_frugal_armorsmiths = {
+	category = combat
+
+	layers = {
+		0 = steward
+		1 = western
+		4 = shield.dds
+	}
+
+	parameters = {
+		frugal_blacksmith_maa_size = yes
+	}
+	
+	character_modifier = {
+		army_maintenance_mult = -0.25
+		men_at_arms_recruitment_cost = -0.25
+		knight_effectiveness_mult = -0.6
+		levy_toughness = -8
+		heavy_cavalry_toughness_mult = -0.5
+		pikemen_toughness_mult = -0.15
+		heavy_infantry_toughness_mult = -0.25
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_stoic_or_communal_desc
+				}
+			}
+			if = {
+				limit = {	
+					NOT = {
+						scope:character = {	
+							number_maa_soldiers_of_base_type = {
+								type = skirmishers
+								value >= 500
+							}	
+							number_maa_soldiers_of_base_type = {
+								type = archers
+								value >= 500
+							}
+						}
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = culture_head_small_soldiers_desc
+				}
+			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_frugal_armorsmiths }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 5 # The AI shouldn't really pick this very often
+		if = {
+			limit = {
+				scope:character = {
+					OR = {
+						number_maa_soldiers_of_base_type = {
+							type = heavy_infantry
+							value >= 100
+						}	
+						number_maa_soldiers_of_base_type = {
+							type = pikemen
+							value >= 100
+						}	
+						number_maa_soldiers_of_base_type = {
+							type = heavy_cavalry
+							value >= 1
+						}	
+						number_maa_soldiers_of_base_type = {
+							type = elephant_cavalry
+							value >= 1
+						}
+					}
+				}
+			}
+			multiply = 0
+		}
+		if = {
+			limit = {
+				OR = {
+					culture_has_heavy_infantry_maa = yes
+					culture_has_pikemen_maa = yes
+					culture_has_heavy_cavalry_maa = yes
+				}
+			}
+			multiply = 0
+		}
+	}
+}
