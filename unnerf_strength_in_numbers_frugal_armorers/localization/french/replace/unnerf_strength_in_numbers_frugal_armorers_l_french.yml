@@ -1,0 +1,4 @@
+﻿l_french:
+ culture_parameter_strength_in_numbers_maa_limit_bonus: "Les séries de [buildings|El] #V $building_type_barracks_01$#! et #V $building_type_war_camps_01$#! augmentent la #V limite de régiment d'[men_at_arms|El]#!"
+ culture_parameter_frugal_blacksmith_maa_size: "La série de [buildings|El] #V $building_type_smiths_01$#! augmente le #V nombre de [knights|El][knight_i]#! et la #V taille des [regiments|El] d'[men_at_arms|El]#!"
+ culture_parameter_trade_ports_give_levies: "La série de [buildings|El] #V $building_type_common_tradeport_01$#! augmente les #V levées#! et la #V taille des [regiments|El] d'[men_at_arms|El]#! dans les [counties|El] de cette [culture|El]"

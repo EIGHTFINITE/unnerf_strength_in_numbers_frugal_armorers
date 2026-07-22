@@ -1,0 +1,4 @@
+﻿l_spanish:
+ culture_parameter_strength_in_numbers_maa_limit_bonus: "Las líneas de [buildings|lE] #V $building_type_barracks_01$#! y #V $building_type_war_camps_01$#! aumentan el #V límite de regimientos de [men_at_arms|lE]#!"
+ culture_parameter_frugal_blacksmith_maa_size: "La línea de [buildings|lE] #V $building_type_smiths_01$#! aumenta el #V número de [knights|lE] [knight_i]#! y el #V tamaño de los [regiments|lE] de [men_at_arms|lE]#!"
+ culture_parameter_trade_ports_give_levies: "La línea de [buildings|lE] #V $building_type_common_tradeport_01$#! aumenta las #V levas#! y el #V tamaño de los [regiments|lE] de [men_at_arms|lE]#! en [counties|lE] de esta [culture|lE]"

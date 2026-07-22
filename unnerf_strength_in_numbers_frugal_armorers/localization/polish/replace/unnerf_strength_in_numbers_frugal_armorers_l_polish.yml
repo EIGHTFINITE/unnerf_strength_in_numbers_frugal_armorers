@@ -1,0 +1,4 @@
+﻿l_polish:
+ culture_parameter_strength_in_numbers_maa_limit_bonus: "[buildings|E] z linii #V koszar#! i #V obozów wojennych#! zwiększają #V limit pułków [Concept('men_at_arms', 'zbrojnych')|E]#!"
+ culture_parameter_frugal_blacksmith_maa_size: "[buildings|E] z linii #V warsztatów kowalskich#! zwiększają #V liczbę [knight_i] [Concept('knights', 'rycerzy')|E]#! oraz #V wielkość [Concept('regiments', 'pułków')|E] [Concept('men_at_arms', 'zbrojnych')|E]#!"
+ culture_parameter_trade_ports_give_levies: "W [Concept('counties', 'hrabstwach')|E] z tej [Concept('culture', 'kultury')|E] [buildings|El] z linii #V portów handlowych#! zwiększają ilość #V pospolitego ruszenia#! oraz #V wielkość [Concept('regiments', 'pułków')|E] [Concept('men_at_arms', 'zbrojnych')|E]#!"

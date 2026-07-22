@@ -1,0 +1,4 @@
+﻿l_korean:
+ culture_parameter_strength_in_numbers_maa_limit_bonus: "#V $building_type_barracks_01$#! 및 #V $building_type_war_camps_01$#! 계열 [buildings|E]의 #V [men_at_arms|E] 연대 한계#!가 증가함"
+ culture_parameter_frugal_blacksmith_maa_size: "#V $building_type_smiths_01$#! 계열 [buildings|E]의 #V [knight_i][knights|E] 숫자#! 및 #V [men_at_arms|E] [regiments|E] 규모#!가 증가함"
+ culture_parameter_trade_ports_give_levies: "해당 [culture|E]에 속한 [Concept( 'counties', '영지' )|E]에서 #V $building_type_common_tradeport_01$#! 계열 [buildings|E]이 #V 징집병 수#! 및 #V [men_at_arms|E] [regiments|E] 규모#!를 증가시킴"

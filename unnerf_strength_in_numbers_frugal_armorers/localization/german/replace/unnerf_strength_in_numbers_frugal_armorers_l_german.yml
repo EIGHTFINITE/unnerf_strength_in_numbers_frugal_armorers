@@ -1,0 +1,4 @@
+﻿l_german:
+ culture_parameter_strength_in_numbers_maa_limit_bonus: "Die [Concept('buildings', 'Gebäudereihen')|E] "#V $building_type_barracks_01$#!" und "#V $building_type_war_camps_01$#!" erhöhen die #V [men_at_arms|E]-Regimentsschwelle#!"
+ culture_parameter_frugal_blacksmith_maa_size: "Die [Concept('buildings', 'Gebäudereihe')|E] "#V $building_type_smiths_01$#!" erhöht die #V Zahl der [knight_i][knights|E]#! und die #V Größe von [men_at_arms|E]-[Concept('regiments', 'Regimentern')|E]#!"
+ culture_parameter_trade_ports_give_levies: "Die [Concept('buildings', 'Gebäudereihe')|E] "#V $building_type_common_tradeport_01$#!" erhöht #V Aufgebote#! und #V Größe von [men_at_arms|E]-[Concept('regiments', 'Regimentern')|E]#! in [counties|E] dieser [culture|E]"

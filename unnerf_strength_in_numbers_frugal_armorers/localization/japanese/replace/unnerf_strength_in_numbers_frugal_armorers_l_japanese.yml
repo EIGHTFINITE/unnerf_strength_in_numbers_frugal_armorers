@@ -1,0 +1,4 @@
+﻿l_japanese:
+ culture_parameter_strength_in_numbers_maa_limit_bonus: "#V $building_type_barracks_01$#!と#V $building_type_war_camps_01$#!系の[buildings|E]が#V [men_at_arms|E]連隊の上限#!を引き上げる"
+ culture_parameter_frugal_blacksmith_maa_size: "#V $building_type_smiths_01$#!系の[buildings|E]が#V [knight_i] [knights|E]の数#!と#V [men_at_arms|E][regiments|E]の規模#!を増加させる"
+ culture_parameter_trade_ports_give_levies: "この[culture|E]の[counties|E]では、#V $building_type_common_tradeport_01$#!系の[buildings|E]が#V 徴募兵#!と#V [men_at_arms|E][regiments|E]の規模#!を増加させる"

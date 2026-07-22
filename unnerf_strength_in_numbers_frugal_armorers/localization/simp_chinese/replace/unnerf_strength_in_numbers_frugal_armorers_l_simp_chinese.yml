@@ -1,0 +1,4 @@
+﻿l_simp_chinese:
+ culture_parameter_strength_in_numbers_maa_limit_bonus: "#V $building_type_barracks_01$#!和#V $building_type_war_camps_01$#!线的[buildings|E]提高#V [men_at_arms|E]军团上限#!"
+ culture_parameter_frugal_blacksmith_maa_size: "#V $building_type_smiths_01$#!线的[buildings|E]提高#V [knight_i][knights|E]数量#!和#V [men_at_arms|E][regiments|E]规模#!"
+ culture_parameter_trade_ports_give_levies: "该[culture|E][counties|E]中的#V $building_type_common_tradeport_01$#!线的[buildings|E]提高#V 征召兵#!数量以及#V [men_at_arms|E][regiments|E]规模#!"
