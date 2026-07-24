@@ -18,9 +18,9 @@
 	character_modifier = {
 		army_maintenance_mult = -0.25
 		men_at_arms_recruitment_cost = -0.25
-		knight_effectiveness_mult = -0.6
-		levy_toughness = -8
-		heavy_cavalry_toughness_mult = -0.5
+		knight_effectiveness_mult = -0.4
+		levy_toughness = -2
+		heavy_cavalry_toughness_mult = -0.3
 		pikemen_toughness_mult = -0.15
 		heavy_infantry_toughness_mult = -0.25
 	}
